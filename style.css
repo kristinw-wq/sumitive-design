@@ -1,14 +1,14 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Times New Roman, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #54568C;
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: #54568C;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
@@ -29,3 +29,4 @@ button {
 button:hover {
   background-color: #45a049;
 }
+
