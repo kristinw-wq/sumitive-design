@@ -8,7 +8,7 @@ body {
 }
 
 .card {
-  background-color: #54568C;
+  background-color: #F0FFFF;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
@@ -21,12 +21,13 @@ button {
   padding: 10px 15px;
   border: none;
   border-radius: 10px;
-  background-color: #4CAF50;
+  background-color: #ABDBDB;
   color: white;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #AFDFE0;
 }
+
 
