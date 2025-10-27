@@ -13,8 +13,9 @@ button.addEventListener("click", () => {
   factParagraph.textContent = facts[randomIndex];
 });
 <button id="colorButton">Change color</button>
-const colorButton = document.getElementById("colorButton");
+const colorButton = document.getElementById("ColorButton");
 colorButton.addEventListener("click", () => {
   document.querySelector(".card").style.backgroundColor = "#3A808A";
 });
+
 
