@@ -12,4 +12,9 @@ button.addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * facts.length);
   factParagraph.textContent = facts[randomIndex];
 });
+<button id="colorButton">Change color</button>
+const colorButton = document.getElementById("colorButton");
+colorButton.addEventListener("click", () => {
+  document.querySelector(".card").style.backgroundColor = "#3A808A";
+});
 
