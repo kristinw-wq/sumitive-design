@@ -1,8 +1,8 @@
 const facts = [
-  "I love drawing and creating digital art!",
-  "My favorite sport is basketball.",
-  "I enjoy coding small games.",
-  "I like to bake cupcakes on weekends."
+  "Golden Retriever-is a frendly house dog",
+  "German Shepherd-is often used as a police dog.",
+  "poodle-often used in dog beuty pagents",
+  "grand danoa- the worlds tallest dog."
 ];
 
 const factParagraph = document.getElementById("fact");
@@ -12,3 +12,4 @@ button.addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * facts.length);
   factParagraph.textContent = facts[randomIndex];
 });
+
